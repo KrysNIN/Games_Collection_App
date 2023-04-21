@@ -1,6 +1,6 @@
 # Game Collection App
 
-** Simple application created with Python and Tkinter, that allows managing a database through a graphical interface, in this case, it is a personal collection of video games.**
+**Simple application created with Python and Tkinter, that allows managing a database through a graphical interface, in this case, it is a personal collection of video games.**
 
 
 ## Starting:
