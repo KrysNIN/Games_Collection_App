@@ -1,5 +1,7 @@
 <h1 align="center">
+  <em>
   Games Collection App
+  </em>
 </h1>
 
 <h3 align="center">
