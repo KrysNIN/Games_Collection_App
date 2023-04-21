@@ -40,7 +40,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
 ***The structure of this file is composed of 4 classes that are inherited from each other:***
 
-- Frames class: 
+- Frames Class: 
 
   Is responsible for creating all the frames corresponding to each section.
 
@@ -50,6 +50,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
   It will create the search frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total"    label, which will reflect the total number of games saved so far.
 
+- Widgets Class
 
 
 ▶ ```BDDLogic.py:```
