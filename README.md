@@ -40,7 +40,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
 ***The structure of this file is composed of 4 classes that are inherited from each other:***
 
-- Frames Class: 
+- ```Frames Class:``` 
 
   Is responsible for creating all the frames corresponding to each section.
 
