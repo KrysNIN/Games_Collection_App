@@ -126,4 +126,4 @@ This file is the database where all the games are stored. Its columns are Name, 
 
 ## License
 
-MIT
+MIT 
