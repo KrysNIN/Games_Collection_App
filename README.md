@@ -42,7 +42,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
 - ```Frames Class:``` 
 
-  Is responsible for creating all the frames corresponding to each section.
+  Using the Tkinter library as a parameter, is responsible for creating all the frames corresponding to each section.
 
   It will create the buttons frame, to contain the labels and entries to enter the data of the game that you want to incorporate into the database.
 
@@ -66,12 +66,21 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
   
   This class will inherit the TreeView class, and will be in charge of creating the logical functions of the application.
   
-  The refresh_treeview argument will update the TreeView every time a game is saved, deleted or searched in the database.
+  The "refresh_treeview" argument will update the TreeView every time a game is saved, deleted or searched in the database.
   
-  The clean_fields argument will clean the name, genre, date, company and platform fields, each time a game is saved to the database.
+  The "clean_fields" argument will clean the name, genre, date, company and platform fields, each time a game is saved to the database.
   
+  The "totals" argument will display the number of index totals saved in the database so far, just like saving or deleting a game from the database.
   
+  The "save" argument will be in charge of saving the information entered in the fields, in the database, taking into account that no field can be left empty when loading the information, and it will not admit titles that are repeated.
   
+  The "delete" argument will be in charge of deleting the index that is being focused on when deleting the record from the database.
+  
+  The argument "order_fecha" will be in charge of ordering all the records from lowest to highest according to the year that has been assigned to each game. This will happen if you click on the "Date" label of the TreeView.
+  
+  The "buscar_juego" argument will be in charge of performing the search in the database by name, according to the name that we have entered in the "Search" entry, and will show the results in the TreeView.
+  
+  The "close_program" argument will indicate that when the application is closed, an "askokcancel" message will appear, in which the user will be asked if they are sure they want to exit, and will be given the option to accept or cancel.
 
 ▶ ```BDDLogic.py:```
 
