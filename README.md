@@ -85,10 +85,6 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 ▶ ```BDDLogic.py:```
 
 This file creates the database and manages the functions that interact with the database and perform corresponding operations, such as saving, searching, and deleting games.
-
-▶ ```games.db:```
-
-This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.
   
 ***The structure of this file is composed of 8 functions:***
   
@@ -123,8 +119,10 @@ This file is the database where all the games are stored. Its columns are Name, 
 - ```totales```
   
   This function will return the value of all the total records stored up to the moment, and will show them in the "Totals" label.
-  
-  
+
+▶ ```games.db:```
+
+This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.  
 
 ## License
 
