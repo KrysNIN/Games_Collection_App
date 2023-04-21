@@ -122,7 +122,13 @@ This file creates the database and manages the functions that interact with the 
 
 <h4><em>▶ games.db:</em></h4>
 
-This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.  
+This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.
+
+## Notes:
+
+- This project was born based on the need to practice and expand my knowledge in Python and its GUI frameworks, in this case Tkinter.
+
+- Although the basic functions comply with what was proposed at the beginning of the project, I plan to add more functionalities, such as being able to edit the records from the graphical interface and order the records by company.
 
 ## License
 
