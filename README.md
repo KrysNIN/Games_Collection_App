@@ -2,9 +2,9 @@
   Games Collection App
 </h1>
 
-<h1 align="center">
-**Simple application created with Python and Tkinter, that allows managing a database through a graphical interface, in this case, it is a personal collection of video games.**
-</h1>
+<h2 align="center">
+Simple application created with Python and Tkinter, that allows managing a database through a graphical interface, in this case, it is a personal collection of video games.
+</h2>
 
 <p align="center">
  <img src="https://github.com/KrysNIN/Games_Collection_App/blob/master/Captura.JPG?raw=true" 
