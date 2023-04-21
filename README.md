@@ -82,7 +82,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
   
   The ```close_program``` argument will indicate that when the application is closed, an "askokcancel" message will appear, in which the user will be asked if they are sure they want to exit, and will be given the option to accept or cancel.
 
-▶ ```BDDLogic.py:```
+▶ BDDLogic.py:
 
 This file creates the database and manages the functions that interact with the database and perform corresponding operations, such as saving, searching, and deleting games.
   
@@ -120,7 +120,7 @@ This file creates the database and manages the functions that interact with the 
   
   This function will return the value of all the total records stored up to the moment, and will show them in the "Totals" label.
 
-▶ ```games.db:```
+▶ games.db:
 
 This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.  
 
