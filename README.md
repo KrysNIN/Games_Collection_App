@@ -122,7 +122,7 @@ This file is the database where all the games are stored. Its columns are Name, 
   
 - ```totales```
   
-  Esta funcion, retornara el valor de todos los registros totales almacenados hasta el momento, y los mostrara en el label "Totales".
+  This function will return the value of all the total records stored up to the moment, and will show them in the "Totals" label.
   
   
 
