@@ -38,15 +38,15 @@ This repository can be cloned on a regular basis, to run on any local machine.
 
 This file is responsible for creating the Graphical User Interface (GUI) that uses the Python tkinter library to create different visual elements such as labels, entries, buttons, and frames to interact with an SQLite database.
 
-The structure of this file is composed of 4 classes that are inherited from each other:
+***The structure of this file is composed of 4 classes that are inherited from each other:***
 
-The first class is Frames, which is responsible for creating all the frames corresponding to each section.
+- The first class is Frames, which is responsible for creating all the frames corresponding to each section.
 
-It will create the "Botones" frame, to contain the labels and entries to enter the data of the game that you want to incorporate into the database.
+- It will create the "Botones" frame, to contain the labels and entries to enter the data of the game that you want to incorporate into the database.
 
-It will create the "Texto" frame, which will contain the TreeView in which the database records will be reflected.
+- It will create the "Texto" frame, which will contain the TreeView in which the database records will be reflected.
 
-It will create the "Busqueda" frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total" label, which will reflect the total number of games saved so far.
+- It will create the "Busqueda" frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total" label, which will reflect the total number of games saved so far.
 
 
 
