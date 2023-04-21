@@ -65,6 +65,13 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 - Functions Class:
   
   This class will inherit the TreeView class, and will be in charge of creating the logical functions of the application.
+  
+  The refresh_treeview argument will update the TreeView every time a game is saved, deleted or searched in the database.
+  
+  The clean_fields argument will clean the name, genre, date, company and platform fields, each time a game is saved to the database.
+  
+  
+  
 
 ▶ ```BDDLogic.py:```
 
