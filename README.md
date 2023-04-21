@@ -50,7 +50,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
   It will create the search frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total"    label, which will reflect the total number of games saved so far.
 
-- Widgets Class:
+- ```Widgets Class:```
   
   The Widgets class will inherit the Frames class, and will be in charge of creating the labels and the entries for the different frames.
   
@@ -58,11 +58,11 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
   
   The labels and entries search and total, belong to the search frame.
   
-- TreeView Class:
+- ```TreeView Class:```
   
   This class will inherit the Widgets Class, and be in charge of creating and configuring the treeview, in which the information contained in the database will be reflected, forming the columns name, gender, date, company and platform.
   
-- Functions Class:
+- ```Functions Class:```
   
   This class will inherit the TreeView class, and will be in charge of creating the logical functions of the application.
   
