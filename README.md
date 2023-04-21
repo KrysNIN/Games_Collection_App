@@ -89,6 +89,42 @@ This file creates the database and manages the functions that interact with the 
 ▶ ```games.db:```
 
 This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.
+  
+***The structure of this file is composed of 8 functions:***
+  
+- ```crear_conexion:```
+  
+  This function is in charge of creating the structure of the database, and creating the connection to be able to interact and manage the database.
+  
+- ```get_juegos```
+  
+  This function will be in charge of searching for all the records in the database and returning them in ascending order.
+  
+- ```save_game```
+  
+  This function will be in charge of inserting the data entered in the entries, to save them in the database.
+  
+- ```delete_game```
+  
+  This function will be in charge of eliminating a record selected by the selected focus in the treeview.
+  
+- ```order_by_date```
+  
+  This function will be in charge of searching for all the records saved in the database, and returning them in order of Date, in ascending order.
+  
+- ```search_game```
+  
+  This function will search for all the records that match the data entered in the "Search Game" field by name, and will return all possible matches.
+ 
+- ```validation```
+  
+  This function will verify that the data entered as name in the "Seach Game" field is not repeated in the database. If it is not repeated, it will allow the "save_game" function to continue, but if it is repeated, it will throw a message indicating that this record is already stored in the database.
+  
+- ```totales```
+  
+  Esta funcion, retornara el valor de todos los registros totales almacenados hasta el momento, y los mostrara en el label "Totales".
+  
+  
 
 ## License
 
