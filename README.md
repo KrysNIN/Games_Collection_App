@@ -10,7 +10,6 @@ Simple application created with Python and Tkinter, that allows managing a datab
   </em>
 </h3>
 
-
 <p align="center">
  <img src="https://github.com/KrysNIN/Games_Collection_App/blob/master/Captura.JPG?raw=true" 
 </p>
@@ -18,7 +17,6 @@ Simple application created with Python and Tkinter, that allows managing a datab
 ## Starting:
 
 This repository can be cloned on a regular basis, to run on any local machine.
-
 
 ## Prerequisites:
 
@@ -36,19 +34,16 @@ This repository can be cloned on a regular basis, to run on any local machine.
 
 ***The project is composed of 3 main files:***
 
-
 ▶ ```App.py:``` 
 
 This file is responsible for creating the Graphical User Interface (GUI) that uses the Python tkinter library to create different visual elements such as labels, entries, buttons, and frames to interact with an SQLite database.
-
 
 ▶ ```BDDLogic.py:```
 
 This file creates the database and manages the functions that interact with the database and perform corresponding operations, such as saving, searching, and deleting games.
 
-
 ▶ ```games.db:```
 
 This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.
 
-***Code Logic:***
+## Code Logic:
