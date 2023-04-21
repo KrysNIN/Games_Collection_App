@@ -60,8 +60,11 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
   
 - TreeView Class:
   
-  This class will be in charge of creating and configuring the treeview, in which the information contained in the database will be reflected, forming the columns name, gender, date, company and platform.
+  This class will inherit the Widgets Class, and be in charge of creating and configuring the treeview, in which the information contained in the database will be reflected, forming the columns name, gender, date, company and platform.
   
+- Functions Class:
+  
+  This class will inherit the TreeView class, and will be in charge of creating the logical functions of the application.
 
 ▶ ```BDDLogic.py:```
 
