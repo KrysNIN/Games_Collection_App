@@ -34,7 +34,7 @@ This repository can be cloned on a regular basis, to run on any local machine.
 
 ***The project is composed of 3 main files:***
 
-▶ App.py:
+▶ <h3><em>App.py:<em/><h3/>
 
 This file is responsible for creating the Graphical User Interface (GUI) that uses the Python tkinter library to create different visual elements such as labels, entries, buttons, and frames to interact with an SQLite database.
 
