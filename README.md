@@ -48,7 +48,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 
   It will create the text frame, which will contain the TreeView in which the database records will be reflected.
 
-  It will create the search frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total" label, which will reflect the total number of games saved so far.
+  It will create the search frame, which will serve to contain the search bar to search for the games that you wish to find in the database, as well as the "Total"    label, which will reflect the total number of games saved so far.
 
 
 
