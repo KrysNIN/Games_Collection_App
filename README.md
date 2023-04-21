@@ -1,4 +1,6 @@
-# Games Collection App
+<h1 align="center">
+  Games Collection App
+</h1>
 
 **Simple application created with Python and Tkinter, that allows managing a database through a graphical interface, in this case, it is a personal collection of video games.**
 
