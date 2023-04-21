@@ -41,8 +41,7 @@ This file is responsible for creating the Graphical User Interface (GUI) that us
 ***The structure of this file is composed of 4 classes that are inherited from each other:***
 
 - The first class is Frames, which is responsible for creating all the frames corresponding to each section.
-
-- It will create the buttons frame, to contain the labels and entries to enter the data of the game that you want to incorporate into the database.
+It will create the buttons frame, to contain the labels and entries to enter the data of the game that you want to incorporate into the database.
 
 - It will create the text frame, which will contain the TreeView in which the database records will be reflected.
 
