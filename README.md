@@ -47,3 +47,7 @@ This file creates the database and manages the functions that interact with the 
 ▶ ```games.db:```
 
 This file is the database where all the games are stored. Its columns are Name, Genre, Date, Company, and Platform.
+
+## License
+
+MIT
