@@ -34,13 +34,13 @@ This repository can be cloned on a regular basis, to run on any local machine.
 
 ***The project is composed of 3 main files:***
 
-▶ ```App.py:``` 
+▶ App.py:
 
 This file is responsible for creating the Graphical User Interface (GUI) that uses the Python tkinter library to create different visual elements such as labels, entries, buttons, and frames to interact with an SQLite database.
 
 ***The structure of this file is composed of 4 classes that are inherited from each other:***
 
-- ```Frames Class:``` 
+- ```Frames Class:```
 
   Using the Tkinter library as a parameter, is responsible for creating all the frames corresponding to each section.
 
